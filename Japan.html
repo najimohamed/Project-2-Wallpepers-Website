@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/5ba741290a.js" crossorigin="anonymous"></script>
+    <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="full-img" id="fullImgBox">
+       <img src="Japan/Japan 1.jpg" id="fullImg">
+       <span onclick="closeFullImg()">X</span>
+    </div>
+    <secion class="img-gallery">
+    <div>
+    <img src="Japan/Japan 1.jpg"  onclick="openFullImg(this.src)">
+    </div>
+     
+    <div>  
+    <img src="/Japan/Japan 2.jpg"  onclick="openFullImg(this.src)"> 
+    </div>
+
+    <div>
+    <img src="/Japan/Japan 3.jpg"  onclick="openFullImg(this.src)">
+    </div>
+
+    <div>
+    <img src="/Japan/Japan 4.jpg" onclick="openFullImg(this.src)">
+    </div>
+
+    <div>
+    <img src="/Japan/Japan 5.jpg" onclick="openFullImg(this.src)">
+    </div>
+
+    <div>
+    <img src="/Japan/Japan 6.jpg" onclick="openFullImg(this.src)">
+    </div>
+
+    <div>
+    <img src="/Japan/Japan 7.jpg" onclick="openFullImg(this.src)">
+    </div>
+    
+    </section> 
+
+   <script>
+
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+      fullImgBox.style.display= "flex";
+      fullImg.src = pic;
+    }
+
+    function closeFullImg(){
+        fullImgBox.style.display = "none"
+    }
+
+   </script> 
+
+    <a href="index.html" >
+        <button id="bh"><i class="fa-sharp fa-solid fa-house"></i>Back to home page</button>
+    </a
+ 
+</body>
+</html>
