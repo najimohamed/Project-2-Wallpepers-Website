@@ -48,7 +48,7 @@ h2{
     width: 80%;
     margin: 100px auto 50px; /* 100px is from the top and 50px is for margin buttom*/
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
     grid-gap: 20px;
 }
 .img-gallery img{
